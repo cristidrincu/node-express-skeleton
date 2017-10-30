@@ -12,7 +12,7 @@ const serverConfiguration = require('./configurations/server_config')[process.en
 const router = require('./router');
 
 app.use(morgan('combined'));
-app.use(cors()); //you can pass as a parameter to cors only accept requests from a specific domain(s) - read docs on cors middleware module
+app.use(cors());
 app.use(bodyParser.json()); // for parsing application/json
 app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
 app.use(helmet());

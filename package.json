@@ -1,0 +1,44 @@
+{
+  "name": "node-express-skeleton",
+  "version": "1.0.0",
+  "description": "A minimal setup for getting up and running with node and express.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon --debug app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "assert": "1.4.1",
+    "bcrypt": "1.0.3",
+    "body-parser": "1.17.1",
+    "chai": "3.5.0",
+    "chai-http": "3.0.0",
+    "chai-jwt": "^2.0.0",
+    "cors": "2.8.3",
+    "express": "4.15.2",
+    "helmet": "3.5.0",
+    "js-beautify": "1.6.14",
+    "jwt-simple": "0.5.1",
+    "mocha": "3.2.0",
+    "moment": "2.18.1",
+    "morgan": "1.8.1",
+    "nodemailer": "4.0.1",
+    "nodemon": "1.11.0",
+    "passport": "0.3.2",
+    "passport-jwt": "2.2.1",
+    "passport-local": "1.0.0",
+    "winston": "2.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cristidrincu/node-express-skeleton"
+  },
+  "keywords": [
+    "skeleton",
+    "node",
+    "express"
+  ],
+  "author": "Cristian Drincu",
+  "license": "ISC"
+}

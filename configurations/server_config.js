@@ -1,4 +1,4 @@
-var config = {
+const config = {
 	production: {
 		database: {
 			client: '',
